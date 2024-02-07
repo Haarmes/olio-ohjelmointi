@@ -8,7 +8,6 @@ using namespace std;
 class ItalianChef: public Chef
 {
 public:
-    ItalianChef();
     ~ItalianChef();
     ItalianChef(string);
     string getName();

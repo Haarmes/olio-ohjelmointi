@@ -1,10 +1,6 @@
 #include "chef.h"
 
-Chef::Chef()
-{
-    cout << "Chef default constructor"<< Chef::name <<endl;
 
-}
 
 Chef::~Chef()
 {

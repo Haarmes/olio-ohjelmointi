@@ -1,14 +1,9 @@
 #include "italianchef.h"
 
-ItalianChef::ItalianChef(string chefName) {
-    Chef::name = chefName;
-    cout << "Chef " << Chef::name << " konstruktori" << endl;
+ItalianChef::ItalianChef(string chefName):Chef(chefName) {
+
 }
 
-ItalianChef::ItalianChef()
-{
-    cout << "Default constructor" << endl;
-}
 
 ItalianChef::~ItalianChef()
 {
